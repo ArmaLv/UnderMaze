@@ -6,11 +6,17 @@
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
-/[Bb]uild/
+# /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 *.log
+
+# ----------------------------------------------------
+# EXCEPTION: VISUAL REPRESENTATION FOLDER IS TRACKED
+# The folder 'Assets/VisualRepresentation' or 'VisualRepresentation' 
+# is NOT ignored so that screenshots can be shared in the repo.
+# ----------------------------------------------------
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
